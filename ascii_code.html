@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> ascii code generator </title>  
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .container{
+            margin:160px 0 0 200px;
+        }
+        h3{
+            margin: 150px 0 0  150px;
+            text-align: center;
+            text-justify: auto;
+            
+        }
+      
+    </style>
+
+</head>
+<body>
+     <h3>converted ascii codne</h3>
+ <div class="container">
+     
+    <div class="rowzero">
+        <h1>lowercase</h1>
+    </div>
+    <div class="rowone">
+        <button id="hello1">-</button>
+        <button id="hello2">1</button>
+        <button id="hello3">2</button>
+        <button id="hello4">3</button>
+        <button id="hello5">4</button>
+        <button id="hello6">5</button>
+        <button id="hello7">6</button>
+        <button id="hello8">7</button>
+        <button id="hello9">8</button>
+        <button id="hello10">9</button>
+        <button id="hello11">0</button>
+       
+         
+    </div>
+    <div class="rowtwo">
+        <button id="hello12">a</button>
+        <button id="hello13">b</button>
+        <button id="hello14">c</button>
+        <button id="hello15">d</button>
+        <button id="hello16">e</button>
+        <button id="hello17">f</button>
+        <button id="hello18">g</button>
+        <button id="hello19">h</button>
+        <button id="hello20">i</button>
+        <button id="hello21">j</button>
+        <button id="hello21">k</button>
+        <button id="hello23">l</button>
+        <button id="hello24">m</button>
+        <button id="hello25">n</button>
+    </div>
+    <div class="rowthree">
+        <button id="hello26">o</button>
+        <button id="hello27">p</button>
+        <button id="hello28">q</button>
+        <button id="hello29">r</button>
+        <button id="hello30">s</button>
+        <button id="hello31">t</button>
+        <button id="hello323">u</button>
+        <button id="hello33">v</button>
+        <button id="hello34">w</button>
+        <button id="hello35">x</button>
+        <button id="hello36">y</button>
+        <button id="hello37">z</button>
+        
+    </div>
+    <div class="rowfour">
+        <h1> upper case</h1>
+    </div>
+    <div class="rowfive">
+        <button id="hello38">A</button>
+        <button id="hello39">B</button>
+        <button id="hello40">C</button>
+        <button id="hello41">D</button>
+        <button id="hello42">E</button>
+        <button id="hello43">F</button>
+        <button id="hello44">G</button>
+        <button id="hello45">H</button>
+        <button id="hello46">I</button>
+        <button id="hello47">J</button>
+        <button id="hello48">K</button>
+        <button id="hello49">L</button>
+        <button id="hello50">M</button>
+        <button id="hello51">N</button>
+    </div>
+    <div class="rowsix">
+        <button id="hello52">M</button>
+        <button id="hello53">O</button>
+        <button id="hello54">P</button>
+        <button id="hello55">Q</button>
+        <button id="hello56">R</button>
+        <button id="hello57">S</button>
+        <button id="hello58">T</button>
+        <button id="hello59">U</button>
+        <button id="hello60">V</button>
+        <button id="hello61">W</button>
+        <button id="hello62">X</button>
+        <button id="hello63">Y</button>
+        <button id="hello64">Z</button>
+         
+    </div>
+    <div class="rowseven">
+        <h1>special character</h1>
+    </div>
+
+    <div class="roweight">
+        <button id="hello65">1</button>
+        <button id="hello66">2</button>
+        <button id="hello67">3</button>
+        <button id="hello68">4</button>
+        <button id="hello69">5</button>
+        <button id="hello70">6</button>
+        <button id="hello71">7</button>
+        <button id="hello72">8</button>
+        <button id="hello73">9</button>
+        <button id="hello74">0</button>
+    </div>
+ </div>
+</body>
+<script>
+
+  // <!-- let firstinput = document.querySelector('#firstinput');
+   // let  secondinput = document.querySelector("#secondinput");
+
+   // let btnadd = document.querySelector('button');
+   // let result = document.querySelector('h1');
+
+  //  btnadd.addEventListener('click', () => {
+   //     let total = parseInt(firstinput.value) + parseInt(secondinput.value);
+    //    result.innerText = total;
+   // });
+ // --> <div class = "container" >
+   //  <input type = "number" id="firstinput">
+    // <input type="number" id = "secondinput">
+
+    let fistname1 = document.querySelector('#hello1');
+    let fistname2 = document.querySelector('#hello2');
+    let fistname3 = document.querySelector('#hello3');
+    let fistname4 = document.querySelector('#hello4');
+    let fistname5 = document.querySelector('#hello5');
+    let fistname6 = document.querySelector('#hello6');
+    let fistname7 = document.querySelector('#hello7');
+    let fistname8 = document.querySelector('#hello8');
+    let fistname9 = document.querySelector('#hello9');
+    let fistname10 = document.querySelector('#hello10');
+    let fistname11 = document.querySelector('#hello11');
+    let fistname12 = document.querySelector('#hello12');
+    let fistname13 = document.querySelector('#hello13');
+    let fistname14 = document.querySelector('#hello14');
+    let fistname15 = document.querySelector('#hello15');
+    let fistname16 = document.querySelector('#hello16');
+    let fistname17 = document.querySelector('#hello17');
+    let fistname18 = document.querySelector('#hello18');
+    let fistname19 = document.querySelector('#hello19');
+    let fistname20 = document.querySelector('#hello20');
+    let fistname21 = document.querySelector('#hello21');
+    let fistname22 = document.querySelector('#hello22');
+    let fistname23 = document.querySelector('#hello23');
+    let fistname24 = document.querySelector('#hello24');
+    let fistname25 = document.querySelector('#hello25');
+    let fistname26 = document.querySelector('#hello26');
+    let fistname27 = document.querySelector('#hello27');
+    let fistname28 = document.querySelector('#hello28');
+    let fistname29 = document.querySelector('#hello39');
+    let fistname30 = document.querySelector('#hello30');
+    let fistname31 = document.querySelector('#hello31');
+    let fistname32 = document.querySelector('#hello32');
+    let fistname33= document.querySelector('#hello33');
+    let fistname34 = document.querySelector('#hello34');
+    let fistname35= document.querySelector('#hello35');
+    let fistname36 = document.querySelector('#hello36');
+    let fistname37 = document.querySelector('#hello37');
+    let fistname38 = document.querySelector('#hello38');
+    let fistname39 = document.querySelector('#hello39');
+    let fistname40 = document.querySelector('#hello40');
+    let fistname41 = document.querySelector('#hello41');
+    let fistname42 = document.querySelector('#hello42');
+    let fistname43 = document.querySelector('#hello43');
+    let fistname44 = document.querySelector('#hello44');
+    let fistname45 = document.querySelector('#hello45');
+    let fistname46 = document.querySelector('#hello46');
+    let fistname47 = document.querySelector('#hello47');
+    let fistname48 = document.querySelector('#hello48');
+    let fistname49 = document.querySelector('#hello49');
+    let fistname50 = document.querySelector('#hello50');
+    let fistname51 = document.querySelector('#hello51');
+    let fistname52 = document.querySelector('#hello52');
+    let fistname53 = document.querySelector('#hello53');
+    let fistname54 = document.querySelector('#hello54');
+    let fistname55 = document.querySelector('#hello55');
+    let fistname56 = document.querySelector('#hello56');
+    let fistname57 = document.querySelector('#hello57');
+    let fistname58 = document.querySelector('#hello58');
+    let fistname59 = document.querySelector('#hello59');
+    let fistname60 = document.querySelector('#hello60');
+    let fistname61 = document.querySelector('#hello61');
+    let fistname62 = document.querySelector('#hello62');
+    let fistname63 = document.querySelector('#hello63');
+    let fistname64 = document.querySelector('#hello64');
+    let fistname65 = document.querySelector('#hello65');
+    let fistname66 = document.querySelector('#hello66');
+    let fistname67 = document.querySelector('#hello67');
+    let fistname68 = document.querySelector('#hello68');
+    let fistname69 = document.querySelector('#hello69');
+    let fistname70 = document.querySelector('#hello70');
+    let fistname71 = document.querySelector('#hello71');
+    let fistname72 = document.querySelector('#hello72');
+    let fistname73 = document.querySelector('#hello73');
+    let fistname74 = document.querySelector('#hello74');
+  
+
+    let result = document. querySelector('h3');
+
+    fistname1.addEventListener('click',() => {
+        result.innerText = 95;
+        
+        
+    });
+    fistname2.addEventListener('click',() => {
+        result.innerText = 61;
+        
+        
+    });
+    fistname3.addEventListener('click',() => {
+        result.innerText =62 ;
+        
+        
+    });
+    fistname4.addEventListener('click',() => {
+        result.innerText = 63;
+        
+        
+    });
+    fistname5.addEventListener('click',() => {
+        result.innerText =64 ;
+        
+        
+    });
+    fistname6.addEventListener('click',() => {
+        result.innerTexxt =65;
+        
+        
+    });
+    fistname7.addEventListener('click',() => {
+        result.innerTexxt = 66;
+        console.log("fcuk");
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerTextxt = 67;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerTextxt = 68;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = ;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    fistname8.addEventListener('click',() => {
+        result.innerText = 16662;
+        
+        
+    });
+    
+</script>
+</html>

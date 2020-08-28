@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+ 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/631054744f.js" crossorigin="anonymous"></script>
+<title>Page Title</title>
+<style>
+   
+    
+   
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin-top: auto;
+        overflow-x: hidden;
+        background:aqua;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      select
+      {
+          width:50px;
+      }
+ 
+    
+    /* styling of images */
+ 
+    @media screen and (max-width: 1000px){
+        img{max-width:100%;
+        box-shadow: var(--bs);
+        }
+   
+  p{
+      margin: 6px;
+      padding: 6px;
+      
+       
+  }
+</style>
+</head>
+<body> 
+
+     
+    <div class="content">
+         
+        <h1>CGPA GENERATOR </h1>
+    <p  > computer-network
+    <select id="select1">
+  <option value="10">s</option>
+  <option value="9">a</option>
+  <option value="8">b</option>
+  <option value="7">c</option>
+  <option value="6">d</option>
+  <option value="5">e</option>
+  <option value="4">f</option>
+</select>
+</p>
+ 
+
+
+ 
+    
+        <p> datbasemanagement     
+        <select id="select2"  >
+         <option value="10">s</option>
+         <option value="9">a</option>
+         <option value="8">b</option>
+         <option value="7">c</option>
+         <option value="6">d</option>
+         <option value="5">e</option>
+         <option value="4">f</option>
+       </select>
+    </p>
+  
+       
+            <p> artificial intellegent
+            <select id="select3">
+             <option value="10">s</option>
+             <option value="9">a</option>
+             <option value="8">b</option>
+             <option value="7">c</option>
+             <option value="6">d</option>
+             <option value="5">e</option>
+             <option value="4">f</option>
+            </p>
+           </select>
+           
+            <p> python programming
+            <select id="select4">
+             <option value="10">s</option>
+             <option value="9">a</option>
+             <option value="8">b</option>
+             <option value="7">c</option>
+             <option value="6">d</option>
+             <option value="5">e</option>
+             <option value="4">f</option>
+           </select>
+        </p>
+             
+             
+                <p> computer graphics
+                <select id="select5">
+                 <option value="10">s</option>
+                 <option value="9">a</option>
+                 <option value="8">b</option>
+                 <option value="7">c</option>
+                 <option value="6">d</option>
+                 <option value="5">e</option>
+                 <option value="4">f</option>
+               </select>
+            </p>
+          
+               
+                    <p> opertiaonal-research
+                    <select id="select6">
+                     <option value="10">s</option>
+                     <option value="9">a</option>
+                     <option value="8">b</option>
+                     <option value="7">c</option>
+                     <option value="6">d</option>
+                     <option value="5">e</option>
+                     <option value="4">f</option>
+                   </select>
+                </p>
+               
+                  
+                        <p>  COM
+                        <select id="select7">
+                         <option value="10">s</option>
+                         <option value="9">a</option>
+                         <option value="8">b</option>
+                         <option value="7">c</option>
+                         <option value="6">d</option>
+                         <option value="5">e</option>
+                         <option value="4">f</option>
+                       </select>
+                    </p>
+                    
+                        
+                            <p> DBMS-LAB 
+                            <select id="select8">
+                             <option value="10">s</option>
+                             <option value="9">a</option>
+                             <option value="8">b</option>
+                             <option value="7">c</option>
+                             <option value="6">d</option>
+                             <option value="5">e</option>
+                             <option value="4">f</option>
+                           </select>
+                        </p>
+                       
+
+                        <p> 
+                              GRADE
+                            <span class="output"></span> 
+                        </p>
+
+                        <button onclick="getOption()"> Check </button>
+                    
+                </div>
+
+</body>
+
+<script  type="text/javascript">
+
+    function getOption() { 
+        selectElement1 =  document.querySelector('#select1'); 
+        selectElement2 =  document.querySelector('#select2');
+        selectElement3 =  document.querySelector('#select3');
+        selectElement4 =  document.querySelector('#select4');
+        selectElement5 =  document.querySelector('#select5');
+        selectElement6 =  document.querySelector('#select6');
+        selectElement7 =  document.querySelector('#select7');
+        selectElement8 =  document.querySelector('#select8');
+                  
+        output1 =  selectElement1.value; 
+        output2 =  selectElement2.value;
+        output3 =  selectElement3.value;
+        output4 =  selectElement4.value;
+        output5 =  selectElement5.value;
+        output6 =  selectElement6.value;
+        output7 =  selectElement7.value;
+        output8 =  selectElement8.value;
+        out = ((parseInt(output1) + parseInt(output2) + parseInt(output3) + parseInt(output4) + parseInt(output5) + parseInt(output6) + parseInt(output7) + parseInt(output8))/8);
+       
+
+        document.querySelector('.output').textContent 
+                = out; 
+    } 
+
+</script>    
+</html>
